@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './App.scss';
+import Homepage from './pages/homepage'
 
 const App = () => {
   return (
     <div>
-      <h1>hello from app</h1>
+      <Homepage />
     </div>
   )
 }
